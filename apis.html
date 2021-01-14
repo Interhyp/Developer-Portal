@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="shortcut icon" href="./content/favicon.png">
+		<link rel="shortcut icon" href="./content/favicon.PNG">
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -25,7 +25,7 @@
 					<div class="lloziarvte lloziarvte-sm lloziarvte-md lloziarvte-lg lloziarvte-xl">
 						<div class="inline-block">
 							<a href="https://Interhyp-Gruppe.de" target="_self">
-							<img class="content picture picture-default" src="./content/InterhypGruppe_Logo.png" alt="Picture" width="200" style="width:200px"></a>
+							<img class="content picture picture-default" src="./content/InterhypGruppe_Logo.PNG" alt="Picture" width="200" style="width:200px"></a>
 						</div>
 					</div>
 					<div class="gphxkyjxgl gphxkyjxgl-sm gphxkyjxgl-md gphxkyjxgl-lg gphxkyjxgl-xl">
@@ -75,7 +75,56 @@
 				<section class="uikcouzveo uikcouzveo-xl">
 					<div class="eehtgpxfrf eehtgpxfrf-sm eehtgpxfrf-md eehtgpxfrf-lg eehtgpxfrf-xl">
 						<div class="cbtmarloqy cbtmarloqy-md">
-							<api-list params="{&quot;defaultGroupByTagToEnabled&quot;:false,&quot;detailsPageUrl&quot;:&quot;/api-details&quot;}"></api-list>
+							<div class="table" role="table" aria-label="APIs">
+						    <div class="table-head" role="rowgroup">
+						        <div class="table-row" role="row">
+						            <div tabindex="0" class="col-5" role="columnheader">Name</div>
+						            <div tabindex="0" class="col-7" role="columnheader">Description</div>
+						        </div>
+						    </div>
+
+						    <!-- ko if: working --><!-- /ko -->
+
+						    <!-- ko ifnot: working -->
+						    <div class="table-body animation-fade-in" role="presentation">
+						        <!-- ko if: groupByTag --><!-- /ko -->
+
+						        <!-- ko ifnot: groupByTag -->
+						        <!-- ko foreach: { data: apis, as: 'item' } --><!-- /ko -->
+										<!-- ko  -->
+						        <div class="table-row" role="row">
+						            <div class="col-5">
+						                <a href="https://prohyp-partner-api-dev.dev.interhyp-cloud.de/redoc/index.html#tag/authorization" target="blank">Authorization</a>
+						            </div>
+						            <div class="col-7">
+						                <p>Mittels dieser API erhalten Sie, basierend auf den von Prohyp zur Verfügung gestellten Authorisierungsdaten, einen Access Token für weitere Schnittstellenaufrufe.</p>
+						            </div>
+						        </div>
+						        <!-- /ko -->
+						        <!-- ko  -->
+						        <div class="table-row" role="row">
+						            <div class="col-5">
+						                <a href="https://prohyp-partner-api-dev.dev.interhyp-cloud.de/redoc/index.html#tag/top-rate" target="blank">Top Rate</a>
+						            </div>
+						            <div class="col-7">
+						                <p>Mit dieser API erhalten Sie die Möglichkeit den TopZins für Ihre Angaben zu ermitteln.<br> Über 400 Bankpartner liefern die Basis für die Berechnungen.<br> Weitere Dateien (z.B. Postman Collections) finden Sie auf <a href="https://github.com/Interhyp/Top-Rate-API" target="_blank">GitHub</a>.</p>
+						            </div>
+						        </div>
+						        <!-- /ko -->
+						        <!-- ko  -->
+										<div class="table-row" role="row">
+						            <div class="col-5">
+						               <a href="https://prohyp-partner-api-dev.dev.interhyp-cloud.de/redoc/index.html#tag/loan-and-product" target="blank">Loan and Product</a>
+						            </div>
+						            <div class="col-7">
+						                <p>Mit dieser API erhalten Sie die Möglichkeit verschiedene Zinsberechnungen durchzuführen.<br> Über 400 Bankpartner liefern die Basis für die Berechnungen.<br> Weitere Dateien (z.B. Postman Collections) finden Sie auf <a href="https://github.com/Interhyp/Loan-And-Product-API" target="_blank">GitHub</a>.</p>
+						            </div>
+						        </div>
+						        <!-- /ko -->
+						    </div>
+						    <!-- /ko -->
+									
+						    <!-- ko if: hasPager --><!-- /ko -->
 						</div>
 					</div>
 				</section>
