@@ -132,13 +132,12 @@ pre {
 .button {
 	color: rgba(51, 51, 51, 1); border-top: 1px solid rgba(0, 0, 0, 0.3764705882352941); box-shadow: none; font-style: normal; margin-top: 12px; border-left: 1px solid rgba(0, 0, 0, 0.3764705882352941); font-weight: normal; padding-top: 9px; border-right: 1px solid rgba(0, 0, 0, 0.3764705882352941); margin-right: 20px; padding-left: 30px; border-bottom: 1px solid rgba(0, 0, 0, 0.3764705882352941); margin-bottom: 10px; padding-right: 30px; padding-bottom: 9px; background-color: rgba(255, 255, 255, 1.0); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;
 }
-.button
+
 .button-primary {
 	color: #fff;
 	font-size: 20px;
 	border-top: 1px solid rgba(167, 51, 51, 0.0); box-shadow: none; margin-top: 10px; border-left: 1px solid rgba(167, 51, 51, 0.0); font-family: Roboto; padding-top: 9px; border-right: 1px solid rgba(167, 51, 51, 0.0); margin-right: 20px; padding-left: 0px; border-bottom: 1px solid rgba(167, 51, 51, 0.0); margin-bottom: 10px; padding-right: 50px; padding-bottom: 9px; background-color: rgba(87.00000000000001, 158, 176, 0.7333333333333333); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;
 }
-.button
 .button-owqcl {
 	color: #fff;
 	font-size: 14px;
@@ -153,34 +152,27 @@ pre {
 .button:disabled {
 	border-top: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-left: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-right: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-bottom: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); background-color: rgba(203.6694473266602, 203.6694473266602, 203.6694473266602, 1);
 }
-.button
 .button-owqcl:hover {
 	color: #fff;
 	font-size: 14px;
 	border-top: 1px solid rgba(51, 51, 51, 1); border-left: 1px solid rgba(51, 51, 51, 1); font-family: Roboto; border-right: 1px solid rgba(51, 51, 51, 1); border-bottom: 1px solid rgba(51, 51, 51, 1); text-decoration: underline; background-color: rgba(51, 51, 51, 1); transition-delay: 0s; transition-duration: 0.3s; transition-property: all; transition-timing-function: ease-in-out;
 }
-.button
 .button-owqcl:active {
 	border-top: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-left: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-right: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-bottom: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); background-color: rgba(203.6694473266602, 203.6694473266602, 203.6694473266602, 1);
 }
-.button
 .button-owqcl:disabled {
 	border-top: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-left: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-right: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); border-bottom: 1px solid rgba(84.66944732666016, 84.66944732666016, 84.66944732666016, 1); background-color: rgba(203.6694473266602, 203.6694473266602, 203.6694473266602, 1);
 }
-.button
 .button-primary:hover {
 	color: #fff;
 	border-top: 1px solid rgba(167, 51, 51, 0.0); border-left: 1px solid rgba(167, 51, 51, 0.0); border-right: 1px solid rgba(167, 51, 51, 0.0); border-bottom: 1px solid rgba(167, 51, 51, 0.0); transition-delay: 0s; transition-duration: 0.3s; transition-property: all; transition-timing-function: linear;
 }
-.button
 .button-primary:active {
 	border-top: 1px solid rgba(167, 51, 51, 0.0); border-left: 1px solid rgba(167, 51, 51, 0.0); border-right: 1px solid rgba(167, 51, 51, 0.0); border-bottom: 1px solid rgba(167, 51, 51, 0.0); background-color: rgba(87.00000000000001, 158, 176, 1); transition-delay: 0; transition-duration: 0s; transition-property: all; transition-timing-function: none;
 }
-.button
 .button-primary:disabled {
 	border-top: 1px solid rgba(167, 51, 51, 0.0); border-left: 1px solid rgba(167, 51, 51, 0.0); border-right: 1px solid rgba(167, 51, 51, 0.0); border-bottom: 1px solid rgba(167, 51, 51, 0.0); background-color: rgba(203.6694473266602, 203.6694473266602, 203.6694473266602, 1);
 }
-.button
 .button-primary:focus {
 	border-top: 1px solid rgba(167, 51, 51, 0.0); border-left: 1px solid rgba(167, 51, 51, 0.0); border-right: 1px solid rgba(167, 51, 51, 0.0); border-bottom: 1px solid rgba(167, 51, 51, 0.0); transition-delay: 0; transition-duration: 0; transition-property: all; transition-timing-function: none;
 }
