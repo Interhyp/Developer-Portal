@@ -2,8 +2,8 @@ openapi: 3.0.2
 info:
   title: Authorization
   description: >-
-    Mittels dieser API erhalten Sie, basierend auf den von Prohyp zur Verfügung
-    gestellten Authorisierungsdaten, einen Access Token für weitere
+    Mittels dieser API erhalten Sie, basierend auf den von Prohyp zur VerfÃ¼gung
+    gestellten Authorisierungsdaten, einen Access Token fÃ¼r weitere
     Schnittstellenaufrufe.
   version: v1
   termsOfService: "http://prohyp.de"
@@ -25,7 +25,7 @@ paths:
       summary: Access Token abrufen
       description: >
         Um einen Access Token zu erhalten, muss der Client die
-        Authorisierungsdaten übermitteln.  
+        Authorisierungsdaten Ã¼bermitteln.  
         Weitere Informationen finden Sie hier: 
         https://tools.ietf.org/html/rfc6749#section-4.
       operationId: request_access_token
@@ -109,7 +109,7 @@ components:
           format: password
           description: Passwort des aufrufenden Benutzers
     TokenResponse:
-      description: Rückmeldung mit Access Token bei gültigem Aufruf
+      description: RÃ¼ckmeldung mit Access Token bei gÃ¼ltigem Aufruf
       required:
         - access_token
         - scope
@@ -122,12 +122,12 @@ components:
           example: 2YotnFZFEjr1zCsicMWpAA
         expires_in:
           type: integer
-          description: Gültigkeit des Access Tokens in Sekunden
+          description: GÃ¼ltigkeit des Access Tokens in Sekunden
           format: int64
           example: 60
         refresh_expires_in:
           type: integer
-          description: Gültigkeit des Refresh Tokens in Sekunden
+          description: GÃ¼ltigkeit des Refresh Tokens in Sekunden
           format: int64
           example: 60
         refresh_token:
