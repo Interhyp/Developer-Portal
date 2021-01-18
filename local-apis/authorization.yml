@@ -2,7 +2,7 @@ openapi: 3.0.2
 info:
   title: Authorization
   description: >-
-    Mittels dieser API erhalten Sie, basierend auf den von Prohyp zur Verfügung
+    Mittels dieser API erhalten Sie, basierend auf den von Prohyp zur Verf&uuml;gung
     gestellten Authorisierungsdaten, einen Access Token für weitere
     Schnittstellenaufrufe.
   version: v1
