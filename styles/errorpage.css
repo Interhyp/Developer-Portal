@@ -3,7 +3,7 @@ html{
 	width: 100%;
 	}
 body{
-	background: #e1e8f3 url(./styles/img/errorpages/errorpage_bg.png) repeat-x bottom left;
+	background: #e1e8f3 url(./img/errorpages/errorpage_bg.png) repeat-x bottom left;
 	height: 100%;
 	width: 100%;
 	margin: 0 0;
