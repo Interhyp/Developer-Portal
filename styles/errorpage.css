@@ -50,7 +50,7 @@ body{
 	display: block;
 	}	
 .error_top{
-	background: transparent url(./styles/img/errorpage_dialog.png) no-repeat 0 0;
+	background: transparent url(./img/errorpage_dialog.png) no-repeat 0 0;
 	height: 100px;	}
 	
 .error_main{
@@ -64,6 +64,6 @@ body{
 	font: bold 14px/22px Arial, "Arial Narrow", Helvetica, Tahoma, Verdana, Geneva, sans-serif;
 	}
 .error_bot{
-	background: transparent url(./styles/img/errorpage_dialog.png) no-repeat 0 bottom;
+	background: transparent url(./img/errorpage_dialog.png) no-repeat 0 bottom;
 	height: 60px;
 	}
